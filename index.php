@@ -108,7 +108,7 @@ if(isset($_POST['submit'])){
             <h2>Create Account</h2>
         </div>
         <div id="card-body">
-            <form action="signup.php" method="POST">
+            <form action="" method="POST">
                 <div class="form-group">
                 <label for="#">First Name</label>
                     <input type="text" placeholder="enter Username"  name="firstName">
