@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: palegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#card{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    
+
+}
+#card-header{
+    background-color: #f7f7f7;
+    padding: 20px 30px;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+#card-body{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    padding: 30px 40px;
+}
+.form-group{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-group.success input{
+    border-color: #2ecc71;
+}
+.form-group.error input{
+    border-color: #e74c3c;
+}
+.form-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+ .form-group input{
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid #f0f0f0;
+     padding: 10px;
+    font-size: 14px; 
+}
+.form-group .color{
+    padding: 0;
+}
+.form-group .checkbox{
+    display: inline-block;
+     width: 10%;
+    padding:0; 
+
+}
+.form-group #department{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+.submit-btn{
+    background-color: lightgreen;
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.red{
+    color: red;
+}
+
