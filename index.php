@@ -89,9 +89,7 @@ if(isset($_POST['submit'])){
             header('location:dashboard.php');
         
         
-    }
-    
-    
+    }  
 }
 ?>
 <!DOCTYPE html>
